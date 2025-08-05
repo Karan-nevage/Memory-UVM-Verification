@@ -22,7 +22,8 @@ This project is developed and tested using **Siemens QuestaSim** on **EDA Playgr
   - Open the project on EDA Playground: [https://www.edaplayground.com/x/ZBa4](https://www.edaplayground.com/x/ZBa4).
    - Ensure QuestaSim is selected as the simulator.
    - Ensure UVM 1.2 is enabled.
-
+## UVM Test-Bench Architecture
+![TB Architecture](https://github.com/Karan-nevage/Memory-UVM-Verification/blob/main/UVM%20Verification/Testbench%20Architecture.png)  
 ## Signal Descriptions
 The memory module (`memory.v`) has the following signals, used in both Verilog and UVM verification environments:
 
@@ -42,7 +43,6 @@ The project includes two verification environments:
 ## Waveform
 The waveform generated from the Verilog testbench can be viewed in the VCD file (`dump.vcd`) on EDA Playground. Below is a snapshot of the waveform:  
 ![Waveform Snapshot](https://github.com/Karan-nevage/Memory-UVM-Verification/blob/main/Verilog%20Waveform%20%20Based%20Verification/Waveform%20Memory%20Result.png)  
-*Note*: Replace `[WAVEFORM_IMAGE_LINK]` with the actual image link once provided.
 
 1. **Traditional Verilog-based Verification**:
    - Features a testbench (`memory_tb.v`) that verifies the memory module by:
